@@ -7,5 +7,5 @@ datasources:
       authType: keys
       defaultRegion: us-east-2
     secureJsonData:
-        accessKey: "AKIAIX5T45FTRS632CEQ"
-        secretKey: "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"
+        accessKey: "XXXXXXXXXXXX"
+        secretKey: "XXXXXxxxxxxxxxxXXXXXXX"
