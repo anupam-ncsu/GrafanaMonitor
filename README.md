@@ -1,7 +1,16 @@
-Can test setup on windows with docker for windows:  
-https://store.docker.com/editions/community/docker-ce-desktop-windows  
-
 ### Usage
-docker-compose build  
-docker-compose up -d  
-docker-compose up  
+
+```sh
+make  run                 # builds grafana and prometheus 
+                          # images and initializes all three containers 
+                          # that forms the infra (grafana, prometheus and 
+                          # node_exporter).  
+
+make  update-dashboards   # updates the list of json files that represent
+                          # the dashboards configured in Grafana.
+
+```
+
+### More
+
+See [Initializing Grafana with preconfigured dashboards](https://ops.tips/blog/initialize-grafana-with-preconfigured-dashboards/).
