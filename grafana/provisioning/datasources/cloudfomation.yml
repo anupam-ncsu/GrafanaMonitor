@@ -7,5 +7,5 @@ datasources:
       authType: keys
       defaultRegion: us-east-2
     secureJsonData:
-        accessKey: "XXXXXXXXXXXX"
-        secretKey: "XXXXXxxxxxxxxxxXXXXXXX"
+        accessKey: "your accounts access key from aws"
+        secretKey: "your users secret key from aws"
